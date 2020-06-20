@@ -1,0 +1,53 @@
+/* Header */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Oswald&family=Raleway:ital,wght@1,100&display=swap');
+
+header, footer {
+  background-color: #008B8B ;
+}
+nav {
+   background-color:    #32CD32   ;  
+}
+main {
+    background-color: #6495ED   ;
+}
+
+.navbar-brand {
+     font-size: 18px;
+     font-weight: 600;
+}
+.nav-link, .dropdown-item {
+     font-size: 15px;
+     font-weight: 600;
+     text-transform: uppercase; /*все буквы меню делает в верхнем регистре*/
+}
+nav li {
+    padding: 0 18px;
+}
+nav li.active, nav li.active:before {
+     background-color: rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+}
+
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+
+.fab fa-instagram {
+    font-weight: 900;
+}
+
+.card-text mb-auto p {
+    font-family: 'Lora', serif;
+
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.lead p{
+    font-family: 'Raleway', sans-serif;
+
+}
+
